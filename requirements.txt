@@ -32,10 +32,9 @@ openai==0.28.1
 packaging==23.1
 pandas==2.1.1
 Pillow==10.0.1
-pipwin==0.5.2
 protobuf==4.24.3
 pyarrow==13.0.0
-PyAudio @ file:///C:/Users/USER/pipwin/PyAudio-0.2.11-cp311-cp311-win_amd64.whl#sha256=5092b46bff5d6687db817bde4a71ffc50dd316cc2e490ee81908f0c95ef2644f
+PyAudio
 pycparser==2.21
 pydeck==0.8.1b0
 Pygments==2.16.1
