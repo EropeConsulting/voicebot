@@ -60,7 +60,7 @@ def TTS(response):
 def main():
     # 기본 설정
     st.set_page_config(
-        page_title="AI 경영컨설턴트 음성 비서 프로그램 이롭",
+        page_title="AI 컨설턴트 피터 드러커, 필립 코틀러와 함께하는 기업 살리기 프로젝트",
         layout="wide")
 
     flag_start = False
