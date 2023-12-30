@@ -2,6 +2,7 @@ gTTS==2.3.2
 numpy==1.26.0
 openai==0.28.1
 streamlit==1.27.1
+PyAudio==0.2.13
 AudioRecorder==0.1
 streamlit-audiorecorder==0.0.2
 
