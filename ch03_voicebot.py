@@ -60,7 +60,7 @@ def TTS(response):
 def main():
     # 기본 설정
     st.set_page_config(
-        page_title="AI 컨설턴트 피터 드러커, 필립 코틀러와 함께하는 기업 살리기 프로젝트",
+        page_title="AI 컨설턴트 피터 드러커와 함께하는 기업 살리기 프로젝트",
         layout="wide")
 
     flag_start = False
@@ -78,7 +78,7 @@ def main():
 
 
     # 제목 
-    st.header("AI 컨설턴트 피터 드러커, 필립 코틀러와 함께하는 기업 살리기 프로젝트")
+    st.header("AI 컨설턴트 피터 드러커와 함께하는 기업 살리기 프로젝트")
     # 구분선
     st.markdown("---")
 
@@ -86,9 +86,9 @@ def main():
     with st.expander("AI 경영컨설턴트 음성 비서 프로그램에 관하여", expanded=True):
         st.write(
         """     
-        - AI 컨설턴트 피터 드러커, 필립 코틀러와 함께하는 기업 살리기 프로젝트.
+        - AI 컨설턴트 피터 드러커와 함께하는 기업 살리기 프로젝트.
         - AI를 활용한 행동관찰모형과 마케팅전략 컨설팅을 제공해 줄 수 있는, 
-        - 피터 드러커와 필립 코틀러의 책과 논문을 학습시켜 만들었습니다. 
+        - 피터 드러커의 책과 논문을 학습시켜 만들었습니다. 
         - Initiative / Narrative (새로운 일을 객관적으로 주도하고 성공 스토리를 제공)
         - erope3v@gmail.com.
         -------------------------------------------------------------------
@@ -118,7 +118,7 @@ def main():
         if st.button(label="초기화"):
             # 리셋 코드 
             st.session_state["chat"] = []
-            st.session_state["messages"] = [{"role": "system", "content": "You are a thoughtful like a management consultant like Peter Drucker or Philip Kotler. Respond to all input in 25 words and answer in korea"}]
+            st.session_state["messages"] = [{"role": "system", "content": "You are a thoughtful like a management consultant like Peter Drucker. Respond to all input in 25 words and answer in korea"}]
 
     # 기능 구현 공간
     col1, col2 =  st.columns(2)
